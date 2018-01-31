@@ -6,6 +6,5 @@ target 'TZDayMonthPicker_Example' do
   target 'TZDayMonthPicker_Tests' do
     inherit! :search_paths
 
-    
   end
 end

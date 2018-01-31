@@ -8,13 +8,18 @@
 
 import UIKit
 
+import TZDayMonthPicker
 
 
 class ViewController: UIViewController {
-
+    
+    var picker : TZDayMonthPicker!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

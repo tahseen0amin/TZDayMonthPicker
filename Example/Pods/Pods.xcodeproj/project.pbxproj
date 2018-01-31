@@ -11,6 +11,7 @@
 		35675C5A28CE15A8F4526D74EA765B2C /* Pods-TZDayMonthPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF766303C542638D612E23CB6907F69F /* Pods-TZDayMonthPicker_Example-dummy.m */; };
 		4560F999E70E2EB4BD4B2D1573B06ECB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		46D115EF2021EB3200651EB3 /* TZDayMonthPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D115EE2021EB3200651EB3 /* TZDayMonthPicker.swift */; };
+		46D115F3202213DE00651EB3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D115F2202213DE00651EB3 /* Extensions.swift */; };
 		7251CE54BDA575CB231D52E4E5110014 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		7C09446929F0CE221C72C036A1A62741 /* Pods-TZDayMonthPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FF6512815673F8A38E11DDDD17E5E11 /* Pods-TZDayMonthPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4BB16BE9707B843ECFE3143F0741F59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -41,7 +42,9 @@
 		3BC2AB9F088F2FF0892193D21FCE29B2 /* Pods-TZDayMonthPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TZDayMonthPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3BE4EA81E1808FDB99F35FA32E059809 /* TZDayMonthPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TZDayMonthPicker.xcconfig; sourceTree = "<group>"; };
 		44D7AC7A2866C7B080E015B45F8AAAFF /* Pods_TZDayMonthPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TZDayMonthPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		46D115EE2021EB3200651EB3 /* TZDayMonthPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TZDayMonthPicker.swift; sourceTree = "<group>"; };
+		46D115EE2021EB3200651EB3 /* TZDayMonthPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TZDayMonthPicker.swift; path = ../TZDayMonthPicker/Classes/TZDayMonthPicker.swift; sourceTree = "<group>"; };
+		46D115F02022132000651EB3 /* TZDayMonthPicker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TZDayMonthPicker.xib; path = ../TZDayMonthPicker/Classes/TZDayMonthPicker.xib; sourceTree = "<group>"; };
+		46D115F2202213DE00651EB3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		62344EFC63E566AB931F0E2DFE356CDF /* Pods-TZDayMonthPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TZDayMonthPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
 		65A3FD3C9B81B58B6046D1F22BC07009 /* TZDayMonthPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TZDayMonthPicker-prefix.pch"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -145,9 +148,19 @@
 		46D115ED2021EAFB00651EB3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				46D115F12022136400651EB3 /* Extension */,
 				46D115EE2021EB3200651EB3 /* TZDayMonthPicker.swift */,
+				46D115F02022132000651EB3 /* TZDayMonthPicker.xib */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		46D115F12022136400651EB3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				46D115F2202213DE00651EB3 /* Extensions.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		54CE8F67CF8DD595465EDFC5B8018519 /* Pods-TZDayMonthPicker_Tests */ = {
@@ -335,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35675C5A28CE15A8F4526D74EA765B2C /* Pods-TZDayMonthPicker_Example-dummy.m in Sources */,
+				46D115F3202213DE00651EB3 /* Extensions.swift in Sources */,
 				46D115EF2021EB3200651EB3 /* TZDayMonthPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
