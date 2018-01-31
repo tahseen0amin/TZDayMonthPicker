@@ -1,0 +1,6 @@
+framework module TZDayMonthPicker {
+  umbrella header "TZDayMonthPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

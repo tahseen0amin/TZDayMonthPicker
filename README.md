@@ -22,7 +22,7 @@ pod 'TZDayMonthPicker'
 
 ## Author
 
-Tasin Zarkoob, tasin.amin@cbi.com
+Tasin Zarkoob, tahseen0amin@gmail.com
 
 ## License
 
