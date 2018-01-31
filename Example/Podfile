@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TZDayMonthPicker_Example' do
+  pod 'TZDayMonthPicker', :path => '../'
+
+  target 'TZDayMonthPicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
